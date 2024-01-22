@@ -30,7 +30,7 @@ struct NumberTextField: View {
         
     }
     func numCheck(_ number: String) -> Bool {
-        guard let num = Int(number) else {
+        guard let num = Double(number) else {
             return false
         }
         return num > 0
