@@ -11,6 +11,7 @@
 		469A74822B5E5C02003D31DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469A74812B5E5C02003D31DA /* ContentView.swift */; };
 		469A74842B5E5C03003D31DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469A74832B5E5C03003D31DA /* Assets.xcassets */; };
 		469A74872B5E5C03003D31DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469A74862B5E5C03003D31DA /* Preview Assets.xcassets */; };
+		469A748E2B5E5C4D003D31DA /* NumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469A748D2B5E5C4D003D31DA /* NumberTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		469A74812B5E5C02003D31DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		469A74832B5E5C03003D31DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		469A74862B5E5C03003D31DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		469A748D2B5E5C4D003D31DA /* NumberTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				469A747F2B5E5C02003D31DA /* BindingNumberTextFieldApp.swift */,
 				469A74812B5E5C02003D31DA /* ContentView.swift */,
+				469A748D2B5E5C4D003D31DA /* NumberTextField.swift */,
 				469A74832B5E5C03003D31DA /* Assets.xcassets */,
 				469A74852B5E5C03003D31DA /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				469A74822B5E5C02003D31DA /* ContentView.swift in Sources */,
 				469A74802B5E5C02003D31DA /* BindingNumberTextFieldApp.swift in Sources */,
+				469A748E2B5E5C4D003D31DA /* NumberTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
