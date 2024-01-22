@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var kingaku: String = ""
+    @State var ninzu: String = ""
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            NumberTextField(title: "金額", number: $kingaku)
+            NumberTextField(title: "人数", number: $ninzu)
         }
-        .padding()
+//        .padding()
     }
 }
 
